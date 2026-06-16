@@ -13,8 +13,45 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
     <description><![CDATA[
-        Project Quick Notes adds a lightweight tool window for keeping short notes per project.<br>
-        Use it to record temporary context, TODOs, review reminders, or handoff notes without leaving the IDE.
+        <h2>Project Quick Notes</h2>
+
+        <p>
+            Project Quick Notes adds a lightweight note panel to IntelliJ IDEA, letting you keep short,
+            project-specific notes directly inside the IDE.
+        </p>
+
+        <p>
+            Use it to record project startup commands, local service URLs, temporary TODOs,
+            debugging context, test accounts, review reminders, or handoff notes without switching
+            to another app.
+        </p>
+
+        <p><b>How to use</b></p>
+        <ul>
+            <li>Open a project in IntelliJ IDEA.</li>
+            <li>Open the <b>Project Notes</b> tool window from the left tool window bar.</li>
+            <li>Write your notes in the editor area.</li>
+            <li>Click <b>Save Note</b> to save notes for the current project.</li>
+            <li>Click <b>Clear</b> to remove the current project's note.</li>
+        </ul>
+
+        <p><b>Features</b></p>
+        <ul>
+            <li>Stores notes separately for each project.</li>
+            <li>Keeps useful project context inside the IDE.</li>
+            <li>Provides a simple tool window with save and clear actions.</li>
+            <li>Works without external services or accounts.</li>
+        </ul>
+
+        <p><b>中文说明</b></p>
+        <p>
+            Project Quick Notes 是一个轻量级 IntelliJ IDEA 项目便签插件。它会在 IDE 左侧添加
+            <b>Project Notes</b> 工具窗口，用来保存当前项目专属的简短笔记。
+        </p>
+        <p>
+            你可以用它记录项目启动命令、本地接口地址、测试账号、临时 TODO、问题排查结论、
+            Code Review 提醒或交接说明。不同项目的笔记会分开保存，互不影响。
+        </p>
         ]]></description>
 
     <!-- Product and plugin compatibility requirements.
