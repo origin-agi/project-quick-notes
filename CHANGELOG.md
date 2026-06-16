@@ -4,6 +4,8 @@
 
 ## [Unreleased]
 
+## [0.1.1]
+
 ### Changed
 
 - Expanded the plugin overview and README with usage instructions, feature details, and Chinese documentation.
